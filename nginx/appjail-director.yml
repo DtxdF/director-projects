@@ -1,0 +1,12 @@
+options:
+  - virtualnet: ':<random> default'
+  - nat:
+
+services:
+  web-server:
+    name: nginx
+    makejail: ./Makejail
+    options:
+      - expose: '80'
+    arguments:
+      - nginx_tag: '14.1'

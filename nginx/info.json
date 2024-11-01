@@ -1,0 +1,11 @@
+{
+	"name" : "NGINX",
+	"image" : "image.png",
+	"description" : "HTTP web server, reverse proxy, content cache, load balancer, TCP/UDP proxy server, and mail proxy server",
+	"www" : "https://github.com/AppJail-makejails/nginx",
+	"extra-files" : {
+		"Makejail" : {
+			"lang" : "Dockerfile"
+		}
+	}
+}
